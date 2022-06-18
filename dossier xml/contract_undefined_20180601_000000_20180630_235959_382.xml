@@ -1,0 +1,1788 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:contract xsi:schemaLocation="http://zakupki.gov.ru/223/integration/schema/TFF-7.5 http://zakupki.gov.ru/223/integration/schema/TFF-7.5/Types.xsd" xmlns="http://zakupki.gov.ru/223fz/types/1" xmlns:ns20="http://zakupki.gov.ru/223fz/purchasePlanProject/1" xmlns:ns21="http://zakupki.gov.ru/223fz/webRequest/1" xmlns:ns10="http://zakupki.gov.ru/223fz/purchase/1" xmlns:ns11="http://zakupki.gov.ru/223fz/typalOrderClauseList/1" xmlns:ns12="http://zakupki.gov.ru/223fz/machineryListInfo/1" xmlns:ns13="http://zakupki.gov.ru/223fz/revenue/1" xmlns:ns14="http://zakupki.gov.ru/223fz/orderClauseList/1" xmlns:ns15="http://zakupki.gov.ru/223fz/missedNotice/1" xmlns:ns16="http://zakupki.gov.ru/223fz/decisionSuspension/1" xmlns:ns17="http://zakupki.gov.ru/223fz/complaint/1" xmlns:ns18="http://zakupki.gov.ru/223fz/purchasePlanAdditionalPosition/1" xmlns:ns19="http://zakupki.gov.ru/223fz/notificationIssue/1" xmlns:ns2="http://zakupki.gov.ru/223fz/contract/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns3="http://zakupki.gov.ru/223fz/dishonestSupplier/1" xmlns:ns4="http://zakupki.gov.ru/223fz/purchasePlan/1" xmlns:ns5="http://zakupki.gov.ru/223fz/purchasePlanProjectAdditionalPosition/1" xmlns:ns6="http://zakupki.gov.ru/223fz/disagreementProtocol/1" xmlns:ns7="http://zakupki.gov.ru/223fz/reference/1" xmlns:ns8="http://zakupki.gov.ru/223fz/stopCommodity/1" xmlns:ns9="http://zakupki.gov.ru/223fz/exclusion/1">
+    <header>
+        <guid>cbcd7a2a-8538-41f0-a511-a1eefdcc32a7</guid>
+        <createDateTime>2018-06-22T11:42:58</createDateTime>
+    </header>
+    <ns2:body>
+        <ns2:item>
+            <guid>94ba8e8e-ef34-4a59-a6de-46ba57a07be6</guid>
+            <ns2:contractData>
+                <ns2:guid>b03b345d-3427-4719-b23d-25476e35e417</ns2:guid>
+                <ns2:registrationNumber>52365004417180001140001</ns2:registrationNumber>
+                <ns2:notice44>false</ns2:notice44>
+                <ns2:termination>false</ns2:termination>
+                <ns2:extension>false</ns2:extension>
+                <ns2:prolongation>false</ns2:prolongation>
+                <ns2:lotNum>1</ns2:lotNum>
+                <ns2:urlOOS>https://zakupki.gov.ru/223/contract/private/contract/view/general-information.html?id=5046078&amp;viewMode=VSRI</ns2:urlOOS>
+                <ns2:createDateTime>2018-06-20T11:18:57</ns2:createDateTime>
+                <ns2:customer>
+                    <mainInfo>
+                        <fullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "РН-МОРСКОЙ ТЕРМИНАЛ ТУАПСЕ"</fullName>
+                        <shortName>ООО "РН-МОРСКОЙ ТЕРМИНАЛ ТУАПСЕ"</shortName>
+                        <iko>52365004417236501001</iko>
+                        <inn>2365004417</inn>
+                        <kpp>236501001</kpp>
+                        <ogrn>1052313098750</ogrn>
+                        <legalAddress>352800, КРАЙ КРАСНОДАРСКИЙ, Г ТУАПСЕ, УЛ ИНДУСТРИАЛЬНАЯ, дом 4</legalAddress>
+                        <postalAddress>352800, Краснодарский край, г Туапсе, ул Индустриальная, дом 4</postalAddress>
+                        <phone>7-86167-38314</phone>
+                        <fax>7-86167-38395</fax>
+                        <email>mail@rosneft-tnp.ru</email>
+                        <okato>03432000000</okato>
+                        <okopf>12300</okopf>
+                        <okopfName>Общества с ограниченной ответственностью</okopfName>
+                        <okpo>78245984</okpo>
+                        <customerRegistrationDate>2005-11-16T00:00:00</customerRegistrationDate>
+                    </mainInfo>
+                </ns2:customer>
+                <ns2:placer>
+                    <mainInfo>
+                        <fullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "РН-МОРСКОЙ ТЕРМИНАЛ ТУАПСЕ"</fullName>
+                        <shortName>ООО "РН-МОРСКОЙ ТЕРМИНАЛ ТУАПСЕ"</shortName>
+                        <iko>52365004417236501001</iko>
+                        <inn>2365004417</inn>
+                        <kpp>236501001</kpp>
+                        <ogrn>1052313098750</ogrn>
+                        <legalAddress>352800, КРАЙ КРАСНОДАРСКИЙ, Г ТУАПСЕ, УЛ ИНДУСТРИАЛЬНАЯ, дом 4</legalAddress>
+                        <postalAddress>352800, Краснодарский край, г Туапсе, ул Индустриальная, дом 4</postalAddress>
+                        <phone>7-86167-38314</phone>
+                        <fax>7-86167-38395</fax>
+                        <email>mail@rosneft-tnp.ru</email>
+                        <okato>03432000000</okato>
+                        <okopf>12300</okopf>
+                        <okopfName>Общества с ограниченной ответственностью</okopfName>
+                        <okpo>78245984</okpo>
+                    </mainInfo>
+                </ns2:placer>
+                <ns2:detachedOrg>
+                    <mainInfo>
+                        <fullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "РН-МОРСКОЙ ТЕРМИНАЛ ТУАПСЕ"</fullName>
+                        <shortName>ООО "РН-МОРСКОЙ ТЕРМИНАЛ ТУАПСЕ"</shortName>
+                        <iko>52365004417236501001</iko>
+                        <inn>2365004417</inn>
+                        <kpp>236501001</kpp>
+                        <ogrn>1052313098750</ogrn>
+                        <legalAddress>352800, КРАЙ КРАСНОДАРСКИЙ, Г ТУАПСЕ, УЛ ИНДУСТРИАЛЬНАЯ, дом 4</legalAddress>
+                        <postalAddress>352800, Краснодарский край, г Туапсе, ул Индустриальная, дом 4</postalAddress>
+                        <phone>7-86167-38314</phone>
+                        <fax>7-86167-38395</fax>
+                        <email>mail@rosneft-tnp.ru</email>
+                        <okato>03432000000</okato>
+                        <okopf>12300</okopf>
+                        <okopfName>Общества с ограниченной ответственностью</okopfName>
+                        <okpo>78245984</okpo>
+                    </mainInfo>
+                </ns2:detachedOrg>
+                <ns2:publicationDate>2018-06-22T11:42:58</ns2:publicationDate>
+                <ns2:status>P</ns2:status>
+                <ns2:version>1</ns2:version>
+                <ns2:digitalPurchase>true</ns2:digitalPurchase>
+                <ns2:digitalPurchaseCode>400001</ns2:digitalPurchaseCode>
+                <ns2:provider>false</ns2:provider>
+                <ns2:changeContract>false</ns2:changeContract>
+                <ns2:attachments>
+                    <totalDocumentsCount>1</totalDocumentsCount>
+                    <document>
+                        <guid>84fe44c7-5705-47a7-b706-ba5f83741651</guid>
+                        <createDateTime>2018-06-20T11:35:33</createDateTime>
+                        <fileName>дог. 2230018-0253Д от 18.06.2018.pdf</fileName>
+                        <description>дог. 2230018-0253Д от 18.06.2018</description>
+                        <url>https://zakupki.gov.ru/223/contract/private/download/download.html?id=26858791</url>
+                        <registrationNumber>52365004417180001140002</registrationNumber>
+                    </document>
+                </ns2:attachments>
+                <ns2:contractRegNumber>52365004417180001140000</ns2:contractRegNumber>
+                <ns2:name>2230018/0253Д</ns2:name>
+                <ns2:contractDate>2018-06-18</ns2:contractDate>
+                <ns2:purchaseNoticeInfo>
+                    <ns2:guid>5aab2ea1-bb8a-4e61-e100-00000a104645</ns2:guid>
+                    <ns2:purchaseNoticeNumber>31806250981</ns2:purchaseNoticeNumber>
+                    <ns2:publicationDateTime>2018-03-16T16:39:11</ns2:publicationDateTime>
+                    <ns2:name>Оборудование и материалы электротехнические (Электроматериалы)</ns2:name>
+                </ns2:purchaseNoticeInfo>
+                <ns2:lotGuid>5aab2ee4-bb8a-4e61-e100-00000a104645</ns2:lotGuid>
+                <ns2:subjectContract>Оборуд. и материалы электротехнические</ns2:subjectContract>
+                <ns2:purchaseTypeInfo>
+                    <ns2:code>40000</ns2:code>
+                    <ns2:name>Иной способ закупки, предусмотренный правовым актом заказчика, указанным в части 1 статьи 2 Федерального закона</ns2:name>
+                </ns2:purchaseTypeInfo>
+                <ns2:resumeDate>2018-05-08</ns2:resumeDate>
+                <ns2:supplierInfo>
+                    <ns2:name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ"ЭНЕРГОТЕХКОМПЛЕКТ-ПЕРМЬ"</ns2:name>
+                    <ns2:shortName>ООО "ЭТК-ПЕРМЬ"</ns2:shortName>
+                    <ns2:inn>5904211741</ns2:inn>
+                    <ns2:kpp>590401001</ns2:kpp>
+                    <ns2:okpo>60726536</ns2:okpo>
+                    <ns2:type>L</ns2:type>
+                    <ns2:provider>true</ns2:provider>
+                    <ns2:providerCode>30</ns2:providerCode>
+                    <ns2:subcontractor>false</ns2:subcontractor>
+                    <ns2:nonResident>false</ns2:nonResident>
+                    <ns2:registrationDate>2009-08-05</ns2:registrationDate>
+                    <ns2:tax>true</ns2:tax>
+                    <ns2:okopf>10000</ns2:okopf>
+                    <ns2:okopfName>ОРГАНИЗАЦИОННО-ПРАВОВЫЕ ФОРМЫ ЮРИДИЧЕСКИХ ЛИЦ, ЯВЛЯЮЩИХСЯ КОММЕРЧЕСКИМИ КОРПОРАТИВНЫМИ ОРГАНИЗАЦИЯМИ</ns2:okopfName>
+                    <ns2:address>
+                        <ns2:egrulEgripChanged>true</ns2:egrulEgripChanged>
+                        <ns2:country>
+                            <name>РОССИЯ</name>
+                            <digitalCode>643</digitalCode>
+                        </ns2:country>
+                        <ns2:postCode>614007</ns2:postCode>
+                        <ns2:region>
+                            <ns2:code>59</ns2:code>
+                            <ns2:name>Пермский край</ns2:name>
+                        </ns2:region>
+                        <ns2:area>Пермский край</ns2:area>
+                        <ns2:city>ПЕРМЬ г</ns2:city>
+                        <ns2:street>Яблочкова ул</ns2:street>
+                        <ns2:email>mail@etk-p.perm.ru</ns2:email>
+                        <ns2:phone>8 (342) 206-11-33</ns2:phone>
+                        <ns2:office>этаж 1</ns2:office>
+                        <ns2:house>26-Д</ns2:house>
+                    </ns2:address>
+                </ns2:supplierInfo>
+                <ns2:hasSubcontractor>false</ns2:hasSubcontractor>
+                <ns2:price>1098611.38</ns2:price>
+                <ns2:currency>
+                    <code>RUB</code>
+                    <digitalCode>643</digitalCode>
+                    <name>Российский рубль</name>
+                </ns2:currency>
+                <ns2:startExecutionDate>2018-06-18</ns2:startExecutionDate>
+                <ns2:endExecutionDate>2018-12-31</ns2:endExecutionDate>
+                <ns2:contractPositions>
+                    <ns2:contractPosition>
+                        <ns2:guid>dd61174e-92f8-4520-96eb-59da92c68294</ns2:guid>
+                        <ns2:name>Машины электрические и аппаратура специализированные</ns2:name>
+                        <ns2:ordinalNumber>1</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.90.11.000</code>
+                            <name>Машины электрические и аппаратура специализированные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>595229d8-a0ba-4c76-95f3-37dda0f6114d</ns2:guid>
+                        <ns2:name>Арматура кабельная</ns2:name>
+                        <ns2:ordinalNumber>2</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.130</code>
+                            <name>Арматура кабельная</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>92764e23-c076-47df-9a99-e871d4ab59d7</ns2:guid>
+                        <ns2:name>Арматура кабельная</ns2:name>
+                        <ns2:ordinalNumber>3</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.130</code>
+                            <name>Арматура кабельная</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>7aef7b7b-7e36-4fb1-b85a-e62f2f338174</ns2:guid>
+                        <ns2:name>Арматура электроизоляционная из пластмасс</ns2:name>
+                        <ns2:ordinalNumber>4</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.14.000</code>
+                            <name>Арматура электроизоляционная из пластмасс</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>83189c39-324d-4a88-a9dc-2142fc520b9f</ns2:guid>
+                        <ns2:name>Полосы (ленты) пластмассовые, неармированные или не комбинированные с другими материалами</ns2:name>
+                        <ns2:ordinalNumber>5</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>22.21.30.130</code>
+                            <name>Полосы (ленты) пластмассовые, неармированные или не комбинированные с другими материалами</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>05d5830d-4598-44cc-8772-b86f67eced5b</ns2:guid>
+                        <ns2:name>Арматура электроизоляционная из пластмасс</ns2:name>
+                        <ns2:ordinalNumber>6</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.14.000</code>
+                            <name>Арматура электроизоляционная из пластмасс</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>cb9458dc-d26e-4aca-87f4-fe188bdcc55f</ns2:guid>
+                        <ns2:name>Кабели монтажные</ns2:name>
+                        <ns2:ordinalNumber>7</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.191</code>
+                            <name>Кабели монтажные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>eeb4791b-5dd1-4781-8a5d-0552f21ab39d</ns2:guid>
+                        <ns2:name>Шнуры слаботочные</ns2:name>
+                        <ns2:ordinalNumber>8</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.157</code>
+                            <name>Шнуры слаботочные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>bfabe13d-a440-433d-b1b9-5846e24f1cf7</ns2:guid>
+                        <ns2:name>Провода и кабели связи полевые</ns2:name>
+                        <ns2:ordinalNumber>9</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.156</code>
+                            <name>Провода и кабели связи полевые</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>9e1561be-6948-4038-9be4-637b15d75e19</ns2:guid>
+                        <ns2:name>Комплектующие (запасные части) электрических машин и оборудования для пайки мягким и твердым припоем и сварки, не имеющие самостоятельных группировок</ns2:name>
+                        <ns2:ordinalNumber>10</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.90.32.110</code>
+                            <name>Комплектующие (запасные части) электрических машин и оборудования для пайки мягким и твердым припоем и сварки, не имеющие самостоятельных группировок</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>72b2b547-259f-4759-852e-aaa425d302e8</ns2:guid>
+                        <ns2:name>Комплектующие (запасные части) электрических машин и оборудования для пайки мягким и твердым припоем и сварки, не имеющие самостоятельных группировок</ns2:name>
+                        <ns2:ordinalNumber>11</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.90.32.110</code>
+                            <name>Комплектующие (запасные части) электрических машин и оборудования для пайки мягким и твердым припоем и сварки, не имеющие самостоятельных группировок</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>3c95c8ef-c780-43d9-b9c7-9c4aebce3964</ns2:guid>
+                        <ns2:name>Кабели силовые гибкие общего назначения</ns2:name>
+                        <ns2:ordinalNumber>12</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.124</code>
+                            <name>Кабели силовые гибкие общего назначения</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>9fa2a101-9213-4d30-afbc-20ae093bf017</ns2:guid>
+                        <ns2:name>Аккумуляторы свинцовые, кроме используемых для запуска поршневых двигателей</ns2:name>
+                        <ns2:ordinalNumber>13</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.20.22.000</code>
+                            <name>Аккумуляторы свинцовые, кроме используемых для запуска поршневых двигателей</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>79856178-32cd-4975-a0e4-0edced1df102</ns2:guid>
+                        <ns2:name>Батареи аккумуляторные прочие</ns2:name>
+                        <ns2:ordinalNumber>14</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.20.23.190</code>
+                            <name>Батареи аккумуляторные прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>e0cfaa6c-d458-4a37-82af-4f8164aa1d9f</ns2:guid>
+                        <ns2:name>Элементы первичные и батареи первичных элементов</ns2:name>
+                        <ns2:ordinalNumber>15</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.20.11.000</code>
+                            <name>Элементы первичные и батареи первичных элементов</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>48e80d6b-42f4-41bd-9fe4-109bd7bfd092</ns2:guid>
+                        <ns2:name>Элементы первичные и батареи первичных элементов</ns2:name>
+                        <ns2:ordinalNumber>16</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.20.11.000</code>
+                            <name>Элементы первичные и батареи первичных элементов</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>4acef347-028e-44e0-ba87-37c4b6c9565e</ns2:guid>
+                        <ns2:name>Арматура кабельная</ns2:name>
+                        <ns2:ordinalNumber>17</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.130</code>
+                            <name>Арматура кабельная</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>dc57887a-d1b9-4e8f-bd52-ab97d6fc798e</ns2:guid>
+                        <ns2:name>Арматура кабельная</ns2:name>
+                        <ns2:ordinalNumber>18</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.130</code>
+                            <name>Арматура кабельная</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b5d79f51-b8ad-4501-95e1-22a8f743f4c0</ns2:guid>
+                        <ns2:name>Провода силовые для электрических установок</ns2:name>
+                        <ns2:ordinalNumber>19</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.131</code>
+                            <name>Провода силовые для электрических установок</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>e17db86d-b2b8-446a-b53e-6a7759538f19</ns2:guid>
+                        <ns2:name>Арматура электроизоляционная из пластмасс</ns2:name>
+                        <ns2:ordinalNumber>20</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.14.000</code>
+                            <name>Арматура электроизоляционная из пластмасс</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>88d8cb4f-6e79-404b-ae9a-fc3d54328ab5</ns2:guid>
+                        <ns2:name>Лампы накаливания галогенные с вольфрамовой нитью, кроме ультрафиолетовых или инфракрасных ламп</ns2:name>
+                        <ns2:ordinalNumber>21</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.12.000</code>
+                            <name>Лампы накаливания галогенные с вольфрамовой нитью, кроме ультрафиолетовых или инфракрасных ламп</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>688c38d2-3c29-4119-ab78-6f66508b16be</ns2:guid>
+                        <ns2:name>Оборудование индукционное или диэлектрическое нагревательное прочее, не включенное в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>22</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.21.13.129</code>
+                            <name>Оборудование индукционное или диэлектрическое нагревательное прочее, не включенное в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>43be1cee-2756-428e-ae4f-5468d17557b1</ns2:guid>
+                        <ns2:name>Элементы первичные и батареи первичных элементов</ns2:name>
+                        <ns2:ordinalNumber>23</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.20.11.000</code>
+                            <name>Элементы первичные и батареи первичных элементов</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>f70532f9-d9e0-4337-ac7c-e634e831d5d2</ns2:guid>
+                        <ns2:name>Элементы первичные и батареи первичных элементов</ns2:name>
+                        <ns2:ordinalNumber>24</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.20.11.000</code>
+                            <name>Элементы первичные и батареи первичных элементов</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b19564fe-6d3b-4a86-981a-d271240d097c</ns2:guid>
+                        <ns2:name>Элементы первичные и батареи первичных элементов</ns2:name>
+                        <ns2:ordinalNumber>25</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.20.11.000</code>
+                            <name>Элементы первичные и батареи первичных элементов</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>c8b0eb44-30fa-4ff8-956c-9b9a20ac1064</ns2:guid>
+                        <ns2:name>Элементы первичные и батареи первичных элементов</ns2:name>
+                        <ns2:ordinalNumber>26</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.20.11.000</code>
+                            <name>Элементы первичные и батареи первичных элементов</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>6b8256df-4667-465d-872b-0b6ad1df785d</ns2:guid>
+                        <ns2:name>Элементы первичные и батареи первичных элементов</ns2:name>
+                        <ns2:ordinalNumber>27</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.20.11.000</code>
+                            <name>Элементы первичные и батареи первичных элементов</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>19af68c2-78d9-4584-a054-b26496832295</ns2:guid>
+                        <ns2:name>Элементы первичные и батареи первичных элементов</ns2:name>
+                        <ns2:ordinalNumber>28</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.20.11.000</code>
+                            <name>Элементы первичные и батареи первичных элементов</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>015273da-8b61-4979-a3b2-5405a2458fff</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>29</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>88863124-e90c-4534-8f0e-bbe2aee1a1f8</ns2:guid>
+                        <ns2:name>Выключатели автоматические на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>30</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.22.000</code>
+                            <name>Выключатели автоматические на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>bfd25cef-fa81-4936-baaf-7b316ce99667</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>31</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>515d5d8a-17a4-4a51-af58-49d0b51df021</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>32</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>5cb1e63d-a96a-48e4-a91b-ce3fad5c7cc5</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>33</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>d4ee2351-98e3-4908-948b-6376df0438ed</ns2:guid>
+                        <ns2:name>Трансформаторы электрические</ns2:name>
+                        <ns2:ordinalNumber>34</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.11.4</code>
+                            <name>Трансформаторы электрические</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>bf1159e2-da0f-4bc2-99fd-36d895206ef6</ns2:guid>
+                        <ns2:name>Светильники и устройства осветительные прочие, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>35</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.39.110</code>
+                            <name>Светильники и устройства осветительные прочие, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>24dc983e-fb47-46ab-949c-cd7a989cd05d</ns2:guid>
+                        <ns2:name>Лампы натриевые высокого давления</ns2:name>
+                        <ns2:ordinalNumber>36</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.112</code>
+                            <name>Лампы натриевые высокого давления</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>ba157c0f-0843-4123-8f3b-122094a4e2cb</ns2:guid>
+                        <ns2:name>Лампы металлогалогенные</ns2:name>
+                        <ns2:ordinalNumber>37</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.115</code>
+                            <name>Лампы металлогалогенные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>c03d2e90-bd6b-4b6f-ae7a-d49d33dbfd34</ns2:guid>
+                        <ns2:name>Лампы металлогалогенные</ns2:name>
+                        <ns2:ordinalNumber>38</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.115</code>
+                            <name>Лампы металлогалогенные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>73708863-43d5-4c5b-ba65-dbb629ef1720</ns2:guid>
+                        <ns2:name>Лампы накаливания прочие, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>39</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.14.000</code>
+                            <name>Лампы накаливания прочие, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>f4f4cfe7-ccc4-431c-9a5a-3c1cf8bdb561</ns2:guid>
+                        <ns2:name>Лампы накаливания мощностью 100-200 Вт, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>40</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.13.000</code>
+                            <name>Лампы накаливания мощностью 100-200 Вт, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>95cdcc05-c01b-4f53-ba8d-2051c6fb6b3a</ns2:guid>
+                        <ns2:name>Лампы накаливания прочие, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>41</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.14.000</code>
+                            <name>Лампы накаливания прочие, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>43aeb7f6-2cb0-4661-953e-82512db13bdb</ns2:guid>
+                        <ns2:name>Лампы накаливания прочие, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>42</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.14.000</code>
+                            <name>Лампы накаливания прочие, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>be55cac5-a5fd-4568-95e2-a9161a0a67b3</ns2:guid>
+                        <ns2:name>Устройства коммутационные и/или предохранительные для электрических цепей прочие, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>43</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.190</code>
+                            <name>Устройства коммутационные и/или предохранительные для электрических цепей прочие, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>3aec06bd-4182-45fa-91b1-011319bdfa1a</ns2:guid>
+                        <ns2:name>Устройства коммутационные и/или предохранительные для электрических цепей прочие, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>44</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.190</code>
+                            <name>Устройства коммутационные и/или предохранительные для электрических цепей прочие, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>eaddc1b3-55ef-411e-a9cd-b7f6f49d3d91</ns2:guid>
+                        <ns2:name>Соединители электрические, зажимы контактные, наборы зажимов</ns2:name>
+                        <ns2:ordinalNumber>45</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.120</code>
+                            <name>Соединители электрические, зажимы контактные, наборы зажимов</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>f99b84f8-f984-4e54-a235-57a163ed3369</ns2:guid>
+                        <ns2:name>Комплектующие (запасные части) электродвигателей, не имеющие самостоятельных группировок</ns2:name>
+                        <ns2:ordinalNumber>46</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.11.61.110</code>
+                            <name>Комплектующие (запасные части) электродвигателей, не имеющие самостоятельных группировок</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>5bc23343-9efd-4067-b767-dd487bee8d95</ns2:guid>
+                        <ns2:name>Лампы накаливания прочие, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>47</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.14.000</code>
+                            <name>Лампы накаливания прочие, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>4fc49238-dd21-4e97-b194-8c221bc6affc</ns2:guid>
+                        <ns2:name>Светильники и устройства осветительные прочие, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>48</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.39.110</code>
+                            <name>Светильники и устройства осветительные прочие, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>9a140b6b-a1c3-4d35-9df1-13598529867e</ns2:guid>
+                        <ns2:name>Светильники и устройства осветительные прочие, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>49</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.39.110</code>
+                            <name>Светильники и устройства осветительные прочие, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b2b8e1a8-62f1-4c67-9961-5b6ba8558535</ns2:guid>
+                        <ns2:name>Контакторы электромагнитные</ns2:name>
+                        <ns2:ordinalNumber>50</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.140</code>
+                            <name>Контакторы электромагнитные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>ff0b6ae8-b683-4509-af2b-1965bf421cf6</ns2:guid>
+                        <ns2:name>Контакторы электромагнитные</ns2:name>
+                        <ns2:ordinalNumber>51</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.140</code>
+                            <name>Контакторы электромагнитные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>a5f0c22b-42bc-405e-84ac-a0e89da583b4</ns2:guid>
+                        <ns2:name>Контакторы электромагнитные</ns2:name>
+                        <ns2:ordinalNumber>52</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.140</code>
+                            <name>Контакторы электромагнитные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b73a36ac-2309-4d73-a3b1-8aaffd6b678a</ns2:guid>
+                        <ns2:name>Контакторы электромагнитные</ns2:name>
+                        <ns2:ordinalNumber>53</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.140</code>
+                            <name>Контакторы электромагнитные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b9aaab7d-3a05-4af7-a19a-b426e001c471</ns2:guid>
+                        <ns2:name>Контакторы электромагнитные</ns2:name>
+                        <ns2:ordinalNumber>54</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.140</code>
+                            <name>Контакторы электромагнитные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>30c67f26-4793-4afe-a190-bf6c300fbeb9</ns2:guid>
+                        <ns2:name>Выключатели автоматические на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>55</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.22.000</code>
+                            <name>Выключатели автоматические на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>39c245ab-3cde-41a8-b72d-6a3e2eab8f2e</ns2:guid>
+                        <ns2:name>Выключатели автоматические на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>56</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.22.000</code>
+                            <name>Выключатели автоматические на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>88034085-34d0-4a6b-93b3-33c9968f7f54</ns2:guid>
+                        <ns2:name>Арматура кабельная</ns2:name>
+                        <ns2:ordinalNumber>57</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.130</code>
+                            <name>Арматура кабельная</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>814e7e15-f8bb-4ae3-82f4-a8e600fb2f54</ns2:guid>
+                        <ns2:name>Арматура кабельная</ns2:name>
+                        <ns2:ordinalNumber>58</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.130</code>
+                            <name>Арматура кабельная</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>4e195a2c-c35d-4142-930c-e4588f3e006b</ns2:guid>
+                        <ns2:name>Арматура кабельная</ns2:name>
+                        <ns2:ordinalNumber>59</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.130</code>
+                            <name>Арматура кабельная</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b262baaa-a521-4fe9-8136-0d83201cf802</ns2:guid>
+                        <ns2:name>Арматура кабельная</ns2:name>
+                        <ns2:ordinalNumber>60</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.130</code>
+                            <name>Арматура кабельная</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b6f9e515-41bf-4965-9903-515f553868af</ns2:guid>
+                        <ns2:name>Арматура кабельная</ns2:name>
+                        <ns2:ordinalNumber>61</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.130</code>
+                            <name>Арматура кабельная</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>4c298128-00e1-4c1c-9eaf-eb19decd65fe</ns2:guid>
+                        <ns2:name>Арматура кабельная</ns2:name>
+                        <ns2:ordinalNumber>62</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.130</code>
+                            <name>Арматура кабельная</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>ee017e18-4505-469a-8470-c4da5f76355c</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>63</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>736437f5-c592-4b93-afce-3d5755006eb2</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>64</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>00eca93f-e166-48c6-8396-e7cd49344a5e</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>65</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>524f817a-4e2f-4670-b8d5-d0b2b21505dd</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>66</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>8502d3e8-2d01-40a4-a67f-397393d8023b</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>67</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>8e77e5f9-c108-4d23-8a84-388c9cb61558</ns2:guid>
+                        <ns2:name>Лампы газоразрядные прочие</ns2:name>
+                        <ns2:ordinalNumber>68</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.119</code>
+                            <name>Лампы газоразрядные прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>fc5e7b3f-b614-4bee-a9d6-a73cc83b5dd3</ns2:guid>
+                        <ns2:name>Лампы газоразрядные прочие</ns2:name>
+                        <ns2:ordinalNumber>69</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.119</code>
+                            <name>Лампы газоразрядные прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>2a9b4337-081b-4fa6-9024-0d73ad3daf97</ns2:guid>
+                        <ns2:name>Кабели силовые с медной жилой на напряжение до 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>70</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.111</code>
+                            <name>Кабели силовые с медной жилой на напряжение до 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b1a7d3a2-af12-4b88-bee5-4d4ef8aef156</ns2:guid>
+                        <ns2:name>Кабели силовые с медной жилой на напряжение до 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>71</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.111</code>
+                            <name>Кабели силовые с медной жилой на напряжение до 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>935bffb7-cf3b-479c-b946-5b17dd263582</ns2:guid>
+                        <ns2:name>Провода силовые общего назначения</ns2:name>
+                        <ns2:ordinalNumber>72</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.135</code>
+                            <name>Провода силовые общего назначения</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>8a89dbd2-e683-4583-b428-13a5b30f04a2</ns2:guid>
+                        <ns2:name>Провода силовые общего назначения</ns2:name>
+                        <ns2:ordinalNumber>73</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.135</code>
+                            <name>Провода силовые общего назначения</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>fb5f55fc-e549-4abf-bbbb-d813e9135e4b</ns2:guid>
+                        <ns2:name>Провода силовые общего назначения</ns2:name>
+                        <ns2:ordinalNumber>74</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.135</code>
+                            <name>Провода силовые общего назначения</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>912e8121-4183-4ef3-bba8-b8c5e70997b4</ns2:guid>
+                        <ns2:name>Разъемы и розетки штепсельные</ns2:name>
+                        <ns2:ordinalNumber>75</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.110</code>
+                            <name>Разъемы и розетки штепсельные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>374c1a18-6a1b-49b5-89ea-654da164223c</ns2:guid>
+                        <ns2:name>Разъемы и розетки штепсельные</ns2:name>
+                        <ns2:ordinalNumber>76</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.110</code>
+                            <name>Разъемы и розетки штепсельные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>357d4c69-fa8d-4e2c-bba1-e7e791ae18c0</ns2:guid>
+                        <ns2:name>Разъемы и розетки штепсельные</ns2:name>
+                        <ns2:ordinalNumber>77</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.110</code>
+                            <name>Разъемы и розетки штепсельные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>c7a11c2c-57e4-414b-a488-4dd561536b4a</ns2:guid>
+                        <ns2:name>Патроны для ламп на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>78</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.12.000</code>
+                            <name>Патроны для ламп на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>f523b2f8-4d74-493e-b8de-70582297c7a1</ns2:guid>
+                        <ns2:name>Разъемы и розетки штепсельные</ns2:name>
+                        <ns2:ordinalNumber>79</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.110</code>
+                            <name>Разъемы и розетки штепсельные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>ef1fd411-123f-4ef7-91ef-0b880886d649</ns2:guid>
+                        <ns2:name>Плиты, листы, трубы и профили пластмассовые</ns2:name>
+                        <ns2:ordinalNumber>80</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>22.21</code>
+                            <name>Плиты, листы, трубы и профили пластмассовые</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>e2446a80-2e10-46c1-a763-9a7642efb8ae</ns2:guid>
+                        <ns2:name>Плиты, листы, трубы и профили пластмассовые</ns2:name>
+                        <ns2:ordinalNumber>81</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>22.21</code>
+                            <name>Плиты, листы, трубы и профили пластмассовые</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>dec3409e-ab91-440e-9f4a-8db7c6a0989d</ns2:guid>
+                        <ns2:name>Трубки изоляционные для электропроводки</ns2:name>
+                        <ns2:ordinalNumber>82</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.90.12.130</code>
+                            <name>Трубки изоляционные для электропроводки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>94c9d629-84a3-4fed-84e9-a7e1684717f2</ns2:guid>
+                        <ns2:name>Трубки изоляционные для электропроводки</ns2:name>
+                        <ns2:ordinalNumber>83</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.90.12.130</code>
+                            <name>Трубки изоляционные для электропроводки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>533f1109-b57b-4980-a8a3-10028adc5ca7</ns2:guid>
+                        <ns2:name>Рубильники и врубные переключатели</ns2:name>
+                        <ns2:ordinalNumber>84</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.11.110</code>
+                            <name>Рубильники и врубные переключатели</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>75a04ba7-b8e3-4b71-a04f-53127e7c0794</ns2:guid>
+                        <ns2:name>Лампы накаливания галогенные с вольфрамовой нитью, кроме ультрафиолетовых или инфракрасных ламп</ns2:name>
+                        <ns2:ordinalNumber>85</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.12.000</code>
+                            <name>Лампы накаливания галогенные с вольфрамовой нитью, кроме ультрафиолетовых или инфракрасных ламп</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>43fa2354-1ce3-47a3-9cb2-c11bffc58fb0</ns2:guid>
+                        <ns2:name>Лампы газоразрядные прочие</ns2:name>
+                        <ns2:ordinalNumber>86</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.119</code>
+                            <name>Лампы газоразрядные прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>3d5bbd61-46b6-4248-8b1d-6d10b0b12157</ns2:guid>
+                        <ns2:name>Элементы первичные и батареи первичных элементов</ns2:name>
+                        <ns2:ordinalNumber>87</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.20.11.000</code>
+                            <name>Элементы первичные и батареи первичных элементов</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>16ec843d-d31c-48a2-ace7-bdbef8ec8149</ns2:guid>
+                        <ns2:name>Элементы первичные и батареи первичных элементов</ns2:name>
+                        <ns2:ordinalNumber>88</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.20.11.000</code>
+                            <name>Элементы первичные и батареи первичных элементов</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>44b9f1a8-ff4b-4127-84c1-5edfcc4dff8c</ns2:guid>
+                        <ns2:name>Прожекторы и аналогичные светильники узконаправленного света</ns2:name>
+                        <ns2:ordinalNumber>89</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.33.000</code>
+                            <name>Прожекторы и аналогичные светильники узконаправленного света</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>480faeb5-6ac3-42f5-91b3-36d091d883ba</ns2:guid>
+                        <ns2:name>Лампы ртутные высокого давления</ns2:name>
+                        <ns2:ordinalNumber>90</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.111</code>
+                            <name>Лампы ртутные высокого давления</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>f93f72df-78d2-42e3-b99f-048bf4725a28</ns2:guid>
+                        <ns2:name>Лампы ртутные высокого давления</ns2:name>
+                        <ns2:ordinalNumber>91</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.111</code>
+                            <name>Лампы ртутные высокого давления</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>a6c2ed64-ed29-4e6d-8a2c-6730c0be5641</ns2:guid>
+                        <ns2:name>Кнопки управления, кнопочные посты управления, станции, аппараты</ns2:name>
+                        <ns2:ordinalNumber>92</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.162</code>
+                            <name>Кнопки управления, кнопочные посты управления, станции, аппараты</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>0212618f-272d-423b-9499-d5e21eb0295f</ns2:guid>
+                        <ns2:name>Кнопки управления, кнопочные посты управления, станции, аппараты</ns2:name>
+                        <ns2:ordinalNumber>93</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.162</code>
+                            <name>Кнопки управления, кнопочные посты управления, станции, аппараты</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>116f6c71-30b9-4bea-9e88-09c2d9b923ee</ns2:guid>
+                        <ns2:name>Устройства коммутационные и/или предохранительные для электрических цепей прочие, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>94</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.190</code>
+                            <name>Устройства коммутационные и/или предохранительные для электрических цепей прочие, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>c7600a5a-1dd5-4467-9c7a-d583cc972d10</ns2:guid>
+                        <ns2:name>Устройства коммутационные и/или предохранительные для электрических цепей прочие, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>95</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.190</code>
+                            <name>Устройства коммутационные и/или предохранительные для электрических цепей прочие, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>30e12a87-be7d-4ab9-a660-dae5a3c4018c</ns2:guid>
+                        <ns2:name>Устройства коммутационные и/или предохранительные для электрических цепей прочие, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>96</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.190</code>
+                            <name>Устройства коммутационные и/или предохранительные для электрических цепей прочие, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>080d6844-30ad-4e6b-9a59-729e1c9d74f9</ns2:guid>
+                        <ns2:name>Лампы газоразрядные прочие</ns2:name>
+                        <ns2:ordinalNumber>97</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.119</code>
+                            <name>Лампы газоразрядные прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>a9dbf61f-34a3-41b3-b7a7-12dbd7a46777</ns2:guid>
+                        <ns2:name>Лампы газоразрядные прочие</ns2:name>
+                        <ns2:ordinalNumber>98</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.119</code>
+                            <name>Лампы газоразрядные прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>16d8ac0a-0f64-4268-9ceb-ed1a986d38e2</ns2:guid>
+                        <ns2:name>Лампы газоразрядные прочие</ns2:name>
+                        <ns2:ordinalNumber>99</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.119</code>
+                            <name>Лампы газоразрядные прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>fb90dffa-ca9e-4e5d-bf7a-4b7c961d3cfc</ns2:guid>
+                        <ns2:name>Патроны для ламп на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>100</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.12.000</code>
+                            <name>Патроны для ламп на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>291df568-1be1-4f93-a0af-cf636da3e1d8</ns2:guid>
+                        <ns2:name>Разъемы и розетки штепсельные</ns2:name>
+                        <ns2:ordinalNumber>101</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.110</code>
+                            <name>Разъемы и розетки штепсельные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>437a5717-b78e-4c3a-9a86-f5ed86c7d535</ns2:guid>
+                        <ns2:name>Панели и прочие комплекты электрической аппаратуры коммутации или защиты на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>102</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.31.000</code>
+                            <name>Панели и прочие комплекты электрической аппаратуры коммутации или защиты на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>602e69bc-d9a9-402a-a758-6727b5dde314</ns2:guid>
+                        <ns2:name>Панели и прочие комплекты электрической аппаратуры коммутации или защиты на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>103</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.31.000</code>
+                            <name>Панели и прочие комплекты электрической аппаратуры коммутации или защиты на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b7a92dd9-181b-4177-a5c1-2d8d92a963ec</ns2:guid>
+                        <ns2:name>Полосы (ленты) пластмассовые, неармированные или не комбинированные с другими материалами</ns2:name>
+                        <ns2:ordinalNumber>104</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>22.21.30.130</code>
+                            <name>Полосы (ленты) пластмассовые, неармированные или не комбинированные с другими материалами</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>83c50924-5e4c-4c95-a3e1-626336a4309c</ns2:guid>
+                        <ns2:name>Машины электрические и аппаратура специализированные</ns2:name>
+                        <ns2:ordinalNumber>105</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.90.11.000</code>
+                            <name>Машины электрические и аппаратура специализированные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>d6b0a922-3e8d-4254-961a-a5069cd7eb9a</ns2:guid>
+                        <ns2:name>Лампы газоразрядные прочие</ns2:name>
+                        <ns2:ordinalNumber>106</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.119</code>
+                            <name>Лампы газоразрядные прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b800a82d-42ff-4547-85bc-ad8b38fa9a36</ns2:guid>
+                        <ns2:name>Лампы газоразрядные прочие</ns2:name>
+                        <ns2:ordinalNumber>107</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.119</code>
+                            <name>Лампы газоразрядные прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>7e2f8761-f5cb-4442-84f8-01d04b312b6b</ns2:guid>
+                        <ns2:name>Выключатели автоматические на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>108</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.22.000</code>
+                            <name>Выключатели автоматические на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>876</code>
+                            <name>Условная единица</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>3f061fa8-bee6-46e2-9796-ee6606749d36</ns2:guid>
+                        <ns2:name>Кнопки управления, кнопочные посты управления, станции, аппараты</ns2:name>
+                        <ns2:ordinalNumber>109</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.162</code>
+                            <name>Кнопки управления, кнопочные посты управления, станции, аппараты</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>2d2bea08-7c35-4d1f-8563-8b5601986893</ns2:guid>
+                        <ns2:name>Провода силовые для электрических установок</ns2:name>
+                        <ns2:ordinalNumber>110</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.131</code>
+                            <name>Провода силовые для электрических установок</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>3fef6c21-de69-4aea-b394-8cac2e1a4fa7</ns2:guid>
+                        <ns2:name>Провода силовые для электрических установок</ns2:name>
+                        <ns2:ordinalNumber>111</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.131</code>
+                            <name>Провода силовые для электрических установок</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>5a66221e-4619-4b65-9f5e-496886b75f53</ns2:guid>
+                        <ns2:name>Провода силовые для электрических установок</ns2:name>
+                        <ns2:ordinalNumber>112</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.131</code>
+                            <name>Провода силовые для электрических установок</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>27908cf8-c182-494b-979f-d37bab810de9</ns2:guid>
+                        <ns2:name>Провода силовые для электрических установок</ns2:name>
+                        <ns2:ordinalNumber>113</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.131</code>
+                            <name>Провода силовые для электрических установок</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>f0fa2f9a-593f-4cb9-9e77-99a84fc55964</ns2:guid>
+                        <ns2:name>Комплектующие (запасные части) электрических машин и оборудования для пайки мягким и твердым припоем и сварки, не имеющие самостоятельных группировок</ns2:name>
+                        <ns2:ordinalNumber>114</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.90.32.110</code>
+                            <name>Комплектующие (запасные части) электрических машин и оборудования для пайки мягким и твердым припоем и сварки, не имеющие самостоятельных группировок</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>843a3995-f6d4-4cc2-9957-1b2fdf0d2771</ns2:guid>
+                        <ns2:name>Элементы первичные и батареи первичных элементов</ns2:name>
+                        <ns2:ordinalNumber>115</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.20.11.000</code>
+                            <name>Элементы первичные и батареи первичных элементов</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>7d974f77-2122-4c2e-a94f-cdb958ff6101</ns2:guid>
+                        <ns2:name>Элементы первичные и батареи первичных элементов</ns2:name>
+                        <ns2:ordinalNumber>116</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.20.11.000</code>
+                            <name>Элементы первичные и батареи первичных элементов</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>4adb5696-bfbb-46da-be63-07ff5dc5ab14</ns2:guid>
+                        <ns2:name>Фонари электрические переносные, работающие от батарей сухих элементов, аккумуляторов, магнето</ns2:name>
+                        <ns2:ordinalNumber>117</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.21.120</code>
+                            <name>Фонари электрические переносные, работающие от батарей сухих элементов, аккумуляторов, магнето</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>fdff6f6f-0e14-44fe-bf11-a6315523e7ab</ns2:guid>
+                        <ns2:name>Реле напряжения</ns2:name>
+                        <ns2:ordinalNumber>118</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.24.120</code>
+                            <name>Реле напряжения</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>0cd55ce5-d06c-486e-881c-110c9c3e4375</ns2:guid>
+                        <ns2:name>Панели и прочие комплекты электрической аппаратуры коммутации или защиты на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>119</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.31.000</code>
+                            <name>Панели и прочие комплекты электрической аппаратуры коммутации или защиты на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>85d397a9-e601-4614-8426-6b606ef04ffb</ns2:guid>
+                        <ns2:name>Выключатели автоматические на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>120</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.22.000</code>
+                            <name>Выключатели автоматические на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>2da10a92-1910-4d6a-87c9-bef0ded69404</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>121</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>54524872-437f-46f2-98bd-683e0211981e</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>122</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>54c6e4a2-5a03-4d4e-8df0-1adb81efec14</ns2:guid>
+                        <ns2:name>Выключатели автоматические на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>123</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.22.000</code>
+                            <name>Выключатели автоматические на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>03ef5329-b896-47c1-a349-f6e120fae09d</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>124</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>0a286277-9f52-4117-b51b-4f18a07da6c3</ns2:guid>
+                        <ns2:name>Панели и прочие комплекты электрической аппаратуры коммутации или защиты на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>125</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.31.000</code>
+                            <name>Панели и прочие комплекты электрической аппаратуры коммутации или защиты на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>cb6bd0fd-f647-427f-97b1-c9986994b094</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>126</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>9f206e1f-e1c9-4143-8a54-8475a82d90c9</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>127</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>e26ef1ce-470b-4111-97d7-eb05edbeb429</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>128</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>3229a626-1c52-4e58-bb24-0bcce30d3eeb</ns2:guid>
+                        <ns2:name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>129</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.2</code>
+                            <name>Устройства коммутации или защиты электрических цепей на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>d0ae3fbf-8841-446c-b7ee-673d8b799a00</ns2:guid>
+                        <ns2:name>Кабели силовые с медной жилой на напряжение до 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>130</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.111</code>
+                            <name>Кабели силовые с медной жилой на напряжение до 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>1f95ddf4-110d-456a-994d-fdd5b5d2ab3c</ns2:guid>
+                        <ns2:name>Устройства коммутационные и/или предохранительные для электрических цепей прочие, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>131</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.190</code>
+                            <name>Устройства коммутационные и/или предохранительные для электрических цепей прочие, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>624c5d41-007e-4ced-8ee3-30277c2b159c</ns2:guid>
+                        <ns2:name>Устройства коммутационные и/или предохранительные для электрических цепей прочие, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>132</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.190</code>
+                            <name>Устройства коммутационные и/или предохранительные для электрических цепей прочие, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>8eede3ee-9fcc-46de-adfb-df673f93e550</ns2:guid>
+                        <ns2:name>Разъемы и розетки штепсельные</ns2:name>
+                        <ns2:ordinalNumber>133</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.110</code>
+                            <name>Разъемы и розетки штепсельные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>298577d4-17db-4630-a368-d3bab06e1e7a</ns2:guid>
+                        <ns2:name>Электродвигатели переменного тока многофазные мощностью от 750 Вт до 75 кВт</ns2:name>
+                        <ns2:ordinalNumber>134</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.11.24.000</code>
+                            <name>Электродвигатели переменного тока многофазные мощностью от 750 Вт до 75 кВт</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>f98730f5-2e8b-42bf-a882-d4cc08806b65</ns2:guid>
+                        <ns2:name>Выключатели и переключатели путевые, блоки путевых выключателей, микровыключатели (микропереключатели)</ns2:name>
+                        <ns2:ordinalNumber>135</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.11.160</code>
+                            <name>Выключатели и переключатели путевые, блоки путевых выключателей, микровыключатели (микропереключатели)</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>aeb433c4-b782-46eb-acdb-95bfdf905d2d</ns2:guid>
+                        <ns2:name>Реле напряжения</ns2:name>
+                        <ns2:ordinalNumber>136</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.24.120</code>
+                            <name>Реле напряжения</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>56066d61-d293-45c3-99a7-dbcef766be87</ns2:guid>
+                        <ns2:name>Реле напряжения</ns2:name>
+                        <ns2:ordinalNumber>137</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.24.120</code>
+                            <name>Реле напряжения</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>fc54d54c-687a-4529-b9e3-1ac26655d8e1</ns2:guid>
+                        <ns2:name>Контакторы электромагнитные</ns2:name>
+                        <ns2:ordinalNumber>138</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.140</code>
+                            <name>Контакторы электромагнитные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>a11d6c1b-f5ad-41a7-95e1-6001a23b4636</ns2:guid>
+                        <ns2:name>Контакторы электромагнитные</ns2:name>
+                        <ns2:ordinalNumber>139</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.140</code>
+                            <name>Контакторы электромагнитные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>80479d2a-24d3-4e6c-9070-241f229e7247</ns2:guid>
+                        <ns2:name>Выключатели и переключатели путевые, блоки путевых выключателей, микровыключатели (микропереключатели)</ns2:name>
+                        <ns2:ordinalNumber>140</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.11.160</code>
+                            <name>Выключатели и переключатели путевые, блоки путевых выключателей, микровыключатели (микропереключатели)</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>76af12b5-bb29-4355-bd77-329b3e59c1d7</ns2:guid>
+                        <ns2:name>Реле прочие</ns2:name>
+                        <ns2:ordinalNumber>141</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.24.190</code>
+                            <name>Реле прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>7f27f5f4-6e46-4383-b0e2-dd07edd9a3b6</ns2:guid>
+                        <ns2:name>Разъемы и розетки штепсельные</ns2:name>
+                        <ns2:ordinalNumber>142</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.110</code>
+                            <name>Разъемы и розетки штепсельные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>8f3fddb4-cb17-4d64-8420-a4012fc2b654</ns2:guid>
+                        <ns2:name>Разъемы и розетки штепсельные</ns2:name>
+                        <ns2:ordinalNumber>143</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.110</code>
+                            <name>Разъемы и розетки штепсельные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>20fe3344-f6fd-45e8-801b-dd9bcd942ec1</ns2:guid>
+                        <ns2:name>Провода силовые общего назначения</ns2:name>
+                        <ns2:ordinalNumber>144</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.135</code>
+                            <name>Провода силовые общего назначения</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>0eef0de9-5047-4131-bf0c-13963a5e16ca</ns2:guid>
+                        <ns2:name>Провода силовые общего назначения</ns2:name>
+                        <ns2:ordinalNumber>145</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.135</code>
+                            <name>Провода силовые общего назначения</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b32d3bb6-c4ba-4cd3-a363-c8a0b917cdd7</ns2:guid>
+                        <ns2:name>Провода силовые общего назначения</ns2:name>
+                        <ns2:ordinalNumber>146</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.135</code>
+                            <name>Провода силовые общего назначения</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>5780d7d7-209c-40a8-98c3-c8a47d1e5572</ns2:guid>
+                        <ns2:name>Кабели силовые с медной жилой на напряжение более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>147</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.14.111</code>
+                            <name>Кабели силовые с медной жилой на напряжение более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>d0f344b4-ab1d-4e7d-a6a0-3697198c755b</ns2:guid>
+                        <ns2:name>Провода силовые для электрических установок</ns2:name>
+                        <ns2:ordinalNumber>148</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.131</code>
+                            <name>Провода силовые для электрических установок</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>4f8e67ed-c837-432b-be88-ff97b88d7ff1</ns2:guid>
+                        <ns2:name>Провода силовые для электрических установок</ns2:name>
+                        <ns2:ordinalNumber>149</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.32.13.131</code>
+                            <name>Провода силовые для электрических установок</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>2534718b-4654-444c-b8ed-59def3967681</ns2:guid>
+                        <ns2:name>Лампы накаливания прочие, не включенные в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>150</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.14.000</code>
+                            <name>Лампы накаливания прочие, не включенные в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>06179086-45c7-4994-ab66-d6d56402cf30</ns2:guid>
+                        <ns2:name>Лампы ртутные высокого давления</ns2:name>
+                        <ns2:ordinalNumber>151</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.111</code>
+                            <name>Лампы ртутные высокого давления</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>e9625597-e663-44ad-bbb6-f9cff9d0b053</ns2:guid>
+                        <ns2:name>Лампы ртутные высокого давления</ns2:name>
+                        <ns2:ordinalNumber>152</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.111</code>
+                            <name>Лампы ртутные высокого давления</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>6d49c7e6-fbf9-42be-a317-6584d35b766f</ns2:guid>
+                        <ns2:name>Арматура кабельная</ns2:name>
+                        <ns2:ordinalNumber>153</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.130</code>
+                            <name>Арматура кабельная</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>8d7ff569-b9c0-4b97-83af-442848b1c4cb</ns2:guid>
+                        <ns2:name>Аккумуляторы свинцовые, кроме используемых для запуска поршневых двигателей</ns2:name>
+                        <ns2:ordinalNumber>154</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.20.22.000</code>
+                            <name>Аккумуляторы свинцовые, кроме используемых для запуска поршневых двигателей</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>868604d9-ebd4-4baa-b7ba-6b23ce096dc0</ns2:guid>
+                        <ns2:name>Панели и прочие комплекты электрической аппаратуры коммутации или защиты на напряжение не более 1 кВ</ns2:name>
+                        <ns2:ordinalNumber>155</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.12.31.000</code>
+                            <name>Панели и прочие комплекты электрической аппаратуры коммутации или защиты на напряжение не более 1 кВ</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>e5b80302-b9d2-4e47-842f-ea3951b32483</ns2:guid>
+                        <ns2:name>Лампы газоразрядные прочие</ns2:name>
+                        <ns2:ordinalNumber>156</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.119</code>
+                            <name>Лампы газоразрядные прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>7c7e7d41-1b79-4340-a032-629fe33e12cc</ns2:guid>
+                        <ns2:name>Лампы газоразрядные прочие</ns2:name>
+                        <ns2:ordinalNumber>157</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.119</code>
+                            <name>Лампы газоразрядные прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>6faf6102-1619-4929-bd5a-70d134ccb0ae</ns2:guid>
+                        <ns2:name>Лампы газоразрядные прочие</ns2:name>
+                        <ns2:ordinalNumber>158</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.15.119</code>
+                            <name>Лампы газоразрядные прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>006cd39a-fd9f-467a-8e3e-3ca51a093e0c</ns2:guid>
+                        <ns2:name>Разъемы и розетки штепсельные</ns2:name>
+                        <ns2:ordinalNumber>159</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.33.13.110</code>
+                            <name>Разъемы и розетки штепсельные</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>4da7ca2f-66ff-465f-8e94-629564cdd597</ns2:guid>
+                        <ns2:name>Арматура осветительная прочая, не включенная в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>160</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.39.190</code>
+                            <name>Арматура осветительная прочая, не включенная в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>eca42b5c-1e5a-4751-9482-43ba3669b3e7</ns2:guid>
+                        <ns2:name>Арматура осветительная прочая, не включенная в другие группировки</ns2:name>
+                        <ns2:ordinalNumber>161</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>27.40.39.190</code>
+                            <name>Арматура осветительная прочая, не включенная в другие группировки</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>true</ns2:impossibleToDetermineAttr>
+                    </ns2:contractPosition>
+                </ns2:contractPositions>
+                <ns2:contractConfirmingDocs>
+                    <ns2:contractDoc>
+                        <ns2:confirmingDocCode>1</ns2:confirmingDocCode>
+                        <ns2:confirmingDocCodeTitle>Протокол, составленный по результатам закупки</ns2:confirmingDocCodeTitle>
+                        <ns2:protocolInfoGuid>5af39a32-f62a-2fa2-e100-00000a104645</ns2:protocolInfoGuid>
+                        <ns2:protocolName>Протокол по подведению итогов закупки   31806250981-02</ns2:protocolName>
+                        <ns2:docDate>2018-05-08</ns2:docDate>
+                        <ns2:docNum>31806250981-02</ns2:docNum>
+                    </ns2:contractDoc>
+                </ns2:contractConfirmingDocs>
+                <ns2:hasOkpdAndOkdpRows>false</ns2:hasOkpdAndOkdpRows>
+                <ns2:hasOkpd2Rows>true</ns2:hasOkpd2Rows>
+            </ns2:contractData>
+        </ns2:item>
+    </ns2:body>
+</ns2:contract>

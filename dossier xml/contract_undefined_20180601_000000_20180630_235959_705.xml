@@ -1,0 +1,1892 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:contract xsi:schemaLocation="http://zakupki.gov.ru/223/integration/schema/TFF-7.5 http://zakupki.gov.ru/223/integration/schema/TFF-7.5/Types.xsd" xmlns="http://zakupki.gov.ru/223fz/types/1" xmlns:ns20="http://zakupki.gov.ru/223fz/purchasePlanProject/1" xmlns:ns21="http://zakupki.gov.ru/223fz/webRequest/1" xmlns:ns10="http://zakupki.gov.ru/223fz/purchase/1" xmlns:ns11="http://zakupki.gov.ru/223fz/typalOrderClauseList/1" xmlns:ns12="http://zakupki.gov.ru/223fz/machineryListInfo/1" xmlns:ns13="http://zakupki.gov.ru/223fz/revenue/1" xmlns:ns14="http://zakupki.gov.ru/223fz/orderClauseList/1" xmlns:ns15="http://zakupki.gov.ru/223fz/missedNotice/1" xmlns:ns16="http://zakupki.gov.ru/223fz/decisionSuspension/1" xmlns:ns17="http://zakupki.gov.ru/223fz/complaint/1" xmlns:ns18="http://zakupki.gov.ru/223fz/purchasePlanAdditionalPosition/1" xmlns:ns19="http://zakupki.gov.ru/223fz/notificationIssue/1" xmlns:ns2="http://zakupki.gov.ru/223fz/contract/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns3="http://zakupki.gov.ru/223fz/dishonestSupplier/1" xmlns:ns4="http://zakupki.gov.ru/223fz/purchasePlan/1" xmlns:ns5="http://zakupki.gov.ru/223fz/purchasePlanProjectAdditionalPosition/1" xmlns:ns6="http://zakupki.gov.ru/223fz/disagreementProtocol/1" xmlns:ns7="http://zakupki.gov.ru/223fz/reference/1" xmlns:ns8="http://zakupki.gov.ru/223fz/stopCommodity/1" xmlns:ns9="http://zakupki.gov.ru/223fz/exclusion/1">
+    <header>
+        <guid>9e470028-ad53-4efc-bc7e-57e353404eaf</guid>
+        <createDateTime>2018-06-20T08:55:08</createDateTime>
+    </header>
+    <ns2:body>
+        <ns2:item>
+            <guid>b091e2b1-3e64-4816-8d59-60f547be0106</guid>
+            <ns2:contractData>
+                <ns2:guid>54899a97-4551-4c2d-b2bd-d6405d2f78a5</ns2:guid>
+                <ns2:registrationNumber>55003028028180002610001</ns2:registrationNumber>
+                <ns2:notice44>false</ns2:notice44>
+                <ns2:termination>false</ns2:termination>
+                <ns2:extension>false</ns2:extension>
+                <ns2:prolongation>false</ns2:prolongation>
+                <ns2:lotNum>1</ns2:lotNum>
+                <ns2:urlOOS>https://zakupki.gov.ru/223/contract/private/contract/view/general-information.html?id=5044582&amp;viewMode=VSRI</ns2:urlOOS>
+                <ns2:createDateTime>2018-06-20T08:54:14</ns2:createDateTime>
+                <ns2:customer>
+                    <mainInfo>
+                        <fullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ГАЗПРОМ ТРАНСГАЗ МОСКВА"</fullName>
+                        <shortName>ООО "ГАЗПРОМ ТРАНСГАЗ МОСКВА"</shortName>
+                        <iko>55003028028775101001</iko>
+                        <inn>5003028028</inn>
+                        <kpp>775101001</kpp>
+                        <ogrn>1025000653920</ogrn>
+                        <legalAddress>108814, Г МОСКВА, П ГАЗОПРОВОД, дом ДОМ 101, корпус КОРПУС 1</legalAddress>
+                        <postalAddress>108814, г Москва, п Газопровод, дом 101, корпус 1</postalAddress>
+                        <phone>7-495-8179330</phone>
+                        <fax>7-495-8170936</fax>
+                        <email>mozgova@gtm.gazprom.ru</email>
+                        <okato>46228826001</okato>
+                        <okopf>12300</okopf>
+                        <okopfName>Общества с ограниченной ответственностью</okopfName>
+                        <okpo>00154329</okpo>
+                        <customerRegistrationDate>2012-07-01T00:00:00</customerRegistrationDate>
+                    </mainInfo>
+                </ns2:customer>
+                <ns2:placer>
+                    <mainInfo>
+                        <fullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ГАЗПРОМ ТРАНСГАЗ МОСКВА"</fullName>
+                        <shortName>ООО "ГАЗПРОМ ТРАНСГАЗ МОСКВА"</shortName>
+                        <iko>55003028028775101001</iko>
+                        <inn>5003028028</inn>
+                        <kpp>775101001</kpp>
+                        <ogrn>1025000653920</ogrn>
+                        <legalAddress>108814, Г МОСКВА, П ГАЗОПРОВОД, дом ДОМ 101, корпус КОРПУС 1</legalAddress>
+                        <postalAddress>108814, г Москва, п Газопровод, дом 101, корпус 1</postalAddress>
+                        <phone>7-495-8179330</phone>
+                        <fax>7-495-8170936</fax>
+                        <email>mozgova@gtm.gazprom.ru</email>
+                        <okato>46228826001</okato>
+                        <okopf>12300</okopf>
+                        <okopfName>Общества с ограниченной ответственностью</okopfName>
+                        <okpo>00154329</okpo>
+                    </mainInfo>
+                </ns2:placer>
+                <ns2:detachedOrg>
+                    <mainInfo>
+                        <fullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ГАЗПРОМ ТРАНСГАЗ МОСКВА"</fullName>
+                        <shortName>ООО "ГАЗПРОМ ТРАНСГАЗ МОСКВА"</shortName>
+                        <iko>55003028028775101001</iko>
+                        <inn>5003028028</inn>
+                        <kpp>775101001</kpp>
+                        <ogrn>1025000653920</ogrn>
+                        <legalAddress>108814, Г МОСКВА, П ГАЗОПРОВОД, дом ДОМ 101, корпус КОРПУС 1</legalAddress>
+                        <postalAddress>108814, г Москва, п Газопровод, дом 101, корпус 1</postalAddress>
+                        <phone>7-495-8179330</phone>
+                        <fax>7-495-8170936</fax>
+                        <email>mozgova@gtm.gazprom.ru</email>
+                        <okato>46228826001</okato>
+                        <okopf>12300</okopf>
+                        <okopfName>Общества с ограниченной ответственностью</okopfName>
+                        <okpo>00154329</okpo>
+                    </mainInfo>
+                </ns2:detachedOrg>
+                <ns2:publicationDate>2018-06-20T08:55:08</ns2:publicationDate>
+                <ns2:status>P</ns2:status>
+                <ns2:version>1</ns2:version>
+                <ns2:digitalPurchase>true</ns2:digitalPurchase>
+                <ns2:digitalPurchaseCode>400001</ns2:digitalPurchaseCode>
+                <ns2:provider>false</ns2:provider>
+                <ns2:changeContract>false</ns2:changeContract>
+                <ns2:attachments>
+                    <totalDocumentsCount>1</totalDocumentsCount>
+                    <document>
+                        <guid>ec7cd0a7-188d-4229-b355-c71a41993633</guid>
+                        <createDateTime>2018-06-20T08:54:53</createDateTime>
+                        <fileName>2-67-95-18.pdf</fileName>
+                        <description>2-67-95-18</description>
+                        <url>https://zakupki.gov.ru/223/contract/private/download/download.html?id=26847650</url>
+                        <registrationNumber>55003028028180002610002</registrationNumber>
+                    </document>
+                </ns2:attachments>
+                <ns2:contractRegNumber>55003028028180002610000</ns2:contractRegNumber>
+                <ns2:name>2-67-95-18</ns2:name>
+                <ns2:contractDate>2018-06-19</ns2:contractDate>
+                <ns2:purchaseNoticeInfo>
+                    <ns2:guid>6f88d56d-d007-b396-a6d9-1d51e70877d9</ns2:guid>
+                    <ns2:purchaseNoticeNumber>31705756165</ns2:purchaseNoticeNumber>
+                    <ns2:publicationDateTime>2017-11-27T15:58:04</ns2:publicationDateTime>
+                    <ns2:name>0001/17/1.1/0075112/ТГМосква/ЗП/ГОС/Э/17.11.2017 Поставка насосно-компрессорного оборудования и запорно-регулирующей арматуры для нужд ООО "Газпром трансгаз Москва"</ns2:name>
+                </ns2:purchaseNoticeInfo>
+                <ns2:lotGuid>e4df2848-c97b-2227-6126-a2a7231a3831</ns2:lotGuid>
+                <ns2:subjectContract>0001/17/1.1/0075112/ТГМосква/ЗП/ГОС/Э/17.11.2017 Поставка насосно-компрессорного оборудования и запорно-регулирующей арматуры для нужд ООО "Газпром трансгаз Москва"</ns2:subjectContract>
+                <ns2:purchaseTypeInfo>
+                    <ns2:code>40000</ns2:code>
+                    <ns2:name>Иной способ закупки, предусмотренный правовым актом заказчика, указанным в части 1 статьи 2 Федерального закона</ns2:name>
+                </ns2:purchaseTypeInfo>
+                <ns2:hasSubcontractor>false</ns2:hasSubcontractor>
+                <ns2:price>70163053.93</ns2:price>
+                <ns2:currency>
+                    <code>RUB</code>
+                    <digitalCode>643</digitalCode>
+                    <name>Российский рубль</name>
+                </ns2:currency>
+                <ns2:startExecutionDate>2018-06-18</ns2:startExecutionDate>
+                <ns2:endExecutionDate>2018-08-30</ns2:endExecutionDate>
+                <ns2:contractPositions>
+                    <ns2:contractPosition>
+                        <ns2:guid>c197b244-1be6-4815-93fe-f81ead1d4c8e</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>1</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>6</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>55e643c4-4a07-40e6-a896-6ee4384e5baf</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>2</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>7</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>3b0e3eea-6fcd-4111-ae9b-e56b63621c43</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>3</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>d1076a1e-7cea-44aa-8a89-f4c6884a8daa</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>4</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b26e14f2-7922-4c27-9d3e-8633a7140897</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>5</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>dc3cea04-dcc3-494a-9a6e-f33438fa17c3</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>6</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>10</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>a90268d0-ea64-4792-8dc0-268001956408</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>7</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>e7301f31-b28d-4e4a-b112-79b25377f97c</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>8</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>11</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>905f7a9d-f29a-4cea-ac08-c68734eb89d2</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>9</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>25</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>5218a807-991b-426a-ac31-6118a5c5b5f6</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>10</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>4</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>c94d963d-1c8b-4829-ad32-af2a9bd030dc</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>11</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>4</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>53ff9970-3738-4040-9d35-364cd8d4b6a4</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>12</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>269d88b4-7e34-4d3b-89bc-a9cd9c7d3434</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>13</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>16</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b2ba4bc3-8fe7-4ab9-bb5a-4d1838b2b125</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>14</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>5</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>df1cdcc8-552a-4304-a2e2-eb28eab5b7c8</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>15</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>8</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>344a66cc-7bf9-4606-8f12-408baa0c7ba8</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>16</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>baed732a-ac21-4779-b240-7f0c9be8e624</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>17</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>28</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>56a6124a-f552-470e-b7e1-76f883a27f60</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>18</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>295</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>a4e217b1-6072-4d36-9142-530034f76f4d</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>19</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>3</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>9f756068-fb50-4758-b938-231d8df22dac</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>20</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>cb2eb197-7f65-49f2-b7e4-6c38ad777cab</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>21</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>16</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>678ec38c-7c8a-435a-9838-1fcedc2a5518</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>22</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>d0a936f0-f751-427f-8641-47368990a646</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>23</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>e61a7c86-f407-4d4d-af40-249f2b06687e</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>24</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>a25374fe-00e9-4d3c-a948-157271e86e1a</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>25</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>57e77810-b0f3-4acb-8b11-e50c4b4b35fd</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>26</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>3</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>6e6e9bda-0c50-4b58-a58b-3dbb07abf01b</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>27</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>4</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>e541b7e2-4c33-4a8e-b4c6-6926ce3491f8</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>28</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>fefcf426-dcee-4815-8dfe-9398a32d642b</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>29</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>059a65d5-051e-445f-987d-a1ca9be216ac</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>30</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>a460325d-20e5-4ba7-ac35-67796dfbaf64</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>31</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>47687237-21ee-44a8-9a72-0e8fcff43f18</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>32</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>034e34a6-4999-44f5-aad0-c7732fc1d2b3</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>33</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>cf92c024-4d8f-495e-b2a5-e4990fa3861d</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>34</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>13e5a65f-6903-415a-ae98-caab9e4eda9b</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>35</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>e368c8cb-d452-42eb-9605-0fa9a05c56c4</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>36</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>f3e0051b-6601-46fa-906b-157979227190</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>37</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>78db3db5-6fd8-40bb-8c7f-93f0bfe619fc</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>38</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>f9fcb853-6343-4017-80c9-08923420c6c8</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>39</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>1ca2808d-f4c2-4778-8fb8-7560e892e6a0</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>40</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>252</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>78fd231a-231d-4cf8-b8de-ca4ac65defd0</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>41</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>5e5ddd3e-07b2-4c69-a249-3b3e33387e79</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>42</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>82cb2c15-9bb7-46db-9f88-e9fcb2985026</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>43</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>6</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>36320300-3bac-4ac0-b3dd-b7c7c8caab9e</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>44</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>4248ae71-c5f7-4187-ae50-d77bb076175b</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>45</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>14</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>483980d2-6926-46f3-b1cd-8af1a586336d</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>46</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>cca03a4c-82a1-47c5-9acd-cc9d26c8c67f</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>47</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>72</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>ccebfa87-bd17-443c-91f0-dd83622a0b02</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>48</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>22</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>e49282e5-c1fa-4020-91b4-bf3415a7c3d6</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>49</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>3</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>576c6adb-cf3c-41d4-a9ca-422dd6dea867</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>50</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>38</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b12a7567-242e-4941-9f4a-5391c6fb3b8f</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>51</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>15</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>40440487-ed02-4e13-a36d-b2190040a3c3</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>52</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>19</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>ed8ce330-bcc8-4035-b022-502ddd05b3be</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>53</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>4</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b286e1ea-356c-43c7-9fe3-bcdcce4fe484</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>54</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>20</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>e2fa563a-1ebf-4da6-aa4e-edda36fac798</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>55</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>128</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>17892f4f-5957-4b91-b6d1-c574fb15307d</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>56</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>32</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>7df8823f-769b-4d09-8f66-e1f0dc5d1aa1</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>57</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>160</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>ae09462d-1eb2-447c-bb37-6b733cb0b7b3</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>58</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>72</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>22cfbcd1-efe7-415d-a5bc-7847c871670d</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>59</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>14</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>0d5df888-1a40-44b1-ac15-7caff59475f8</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>60</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>10</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>4637f7bc-312d-4f89-b54f-db3ca832e582</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>61</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>12</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>ce8214b7-785d-4826-b2da-472c142708a3</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>62</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>27</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>2b8a1d0b-73fd-4561-b9f7-3753e773341c</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>63</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>15</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>21ca0a8e-c4e6-43e8-8ddc-865dd9a0e315</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>64</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>11ebe22a-5c0d-4cc0-bc73-489c4f2121aa</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>65</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>11</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>61479f34-d7d3-4181-8644-3a7edbd760dc</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>66</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>3</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>7edde212-ebff-4343-9ddb-c25ee56b9d7e</ns2:guid>
+                        <ns2:name>Краны и клапаны прочие</ns2:name>
+                        <ns2:ordinalNumber>67</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.14</code>
+                            <name>Краны и клапаны прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>803ab30e-ac66-41ab-82f5-deac4f400129</ns2:guid>
+                        <ns2:name>Каплеуловители</ns2:name>
+                        <ns2:ordinalNumber>68</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25.14.126</code>
+                            <name>Каплеуловители</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>5</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>61af3128-e095-4d2a-9182-0013583afb3d</ns2:guid>
+                        <ns2:name>Каплеуловители</ns2:name>
+                        <ns2:ordinalNumber>69</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25.14.126</code>
+                            <name>Каплеуловители</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>7</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>923742d1-ed15-4399-a0ef-14d21d87e62d</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>70</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>f2bdf68e-f1f2-460a-8a0d-e499021e815b</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>71</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>f47786b3-fe1e-471b-9c98-082365fa279d</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>72</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>13</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>00bfe206-866f-4475-8d04-9cc7c6d15877</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>73</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>5</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>5146fdd0-a9ba-46ac-b8bb-e22752633c50</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>74</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>e1e9d8bf-fe8e-4688-9298-751dd2d64c87</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>75</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>3</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>abf06de6-4e87-4174-aa20-de6b2b8de097</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>76</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>79ab4ec5-a15f-4a03-8cc7-d9755054ba0e</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>77</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>0c14f76f-4b89-41b2-af6d-9b1996b0d775</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>78</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>c1478398-5899-46f7-96d4-af9d56901143</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>79</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>14</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>0b683e8d-cfd5-40a1-828b-dff042c035ea</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>80</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>12</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>70a00d2f-3797-4f3e-9323-cf8eecb2659d</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>81</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>5</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>29f08f3b-d428-4651-a77d-b8e6c2660b07</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>82</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>3</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>45b73f59-33fa-4b26-9fcf-41dfd3a6c2e9</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>83</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>8f0cf5e7-e2a4-4075-a219-44136f2683a6</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>84</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>1e5bb130-dc19-4dfc-a51e-f0d377ba8c64</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>85</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>d1360ca9-2671-483a-acd2-abfd6b66ce53</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>86</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>9b686ada-2bc8-451c-bb9a-17204fd5f719</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>87</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>89f31f10-9959-4a8c-8379-f593469ffcd3</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>88</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>2e4df5f9-4ad4-4ed4-b308-fb38e5ae80ac</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>89</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>5</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>112f6e0c-1aec-49a0-baf5-7ac9a831e0ef</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>90</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>5e0d97c0-b2de-4527-bb11-f61e93452921</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>91</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>3c308d95-e97c-4e28-aad2-6a4fc6a9ead8</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>92</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>32b6f4db-f864-4df1-ba19-0d207babc53c</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>93</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>9171e2e0-1b42-40b2-9eb8-e15cbede0d2f</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>94</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>8fccee8c-63f5-406e-a465-116cd4b2081b</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>95</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>3</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>c506190a-15ab-4cf7-b963-c0e3b8931c73</ns2:guid>
+                        <ns2:name>Насосы и компрессоры прочие</ns2:name>
+                        <ns2:ordinalNumber>96</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.13</code>
+                            <name>Насосы и компрессоры прочие</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>17</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>03ea076c-6e6b-4e64-abe2-893554d26804</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>97</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>c81dd65b-93e7-48d8-85ef-3eafc784f5e6</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>98</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>9</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>1c574492-00f7-4452-bc3b-a4f87e205050</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>99</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>98291d01-3213-4489-8e8e-c7656be11beb</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>100</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>9</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>5f31b391-d109-4bea-88b6-2df133f2df2f</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>101</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>3</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b12bb872-b77b-4684-87fc-74f0f85fcb84</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>102</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>9272110e-6ec7-490a-9576-c3c15cdab8fc</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>103</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>c83307bd-5166-486f-863d-676aed5bb1c5</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>104</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>52dd6c12-eb1b-4f36-a9a0-8f0b20ca3ee6</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>105</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>1</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>de9085f6-5cee-4153-8a71-1bf733c598ad</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>106</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>94ff37db-aabd-401b-b6f2-27b3f2218337</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>107</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>5</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>31eeb3e6-c1e9-4312-899f-3196dc78c117</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>108</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>839</code>
+                            <name>Комплект</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>ccb7ba69-13d5-4a12-a235-dfe43cf57a44</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>109</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>10</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>61ecbecb-62ae-42f1-b60b-f088737d40a9</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>110</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>3</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>39b71c57-163b-4158-811e-b1da42ceb42c</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>111</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>893bb40d-6cc8-43dd-9dad-49ac22b5af5c</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>112</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>4</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>b40a71d4-7624-4f22-9622-63d9a046bcae</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>113</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>6</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>e8091319-3d0b-42d6-8f3e-f832d5961d5f</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>114</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>4</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>cebc3436-2574-471b-b2ae-e96628fded16</ns2:guid>
+                        <ns2:name>Оборудование промышленное холодильное и вентиляционное</ns2:name>
+                        <ns2:ordinalNumber>115</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>28.25</code>
+                            <name>Оборудование промышленное холодильное и вентиляционное</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>2</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>78e8173a-2b31-4fb7-9051-6a8b211eb693</ns2:guid>
+                        <ns2:name>Фитинги для труб стальные, кроме литых</ns2:name>
+                        <ns2:ordinalNumber>116</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>24.20.40.000</code>
+                            <name>Фитинги для труб стальные, кроме литых</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>54</ns2:qty>
+                    </ns2:contractPosition>
+                    <ns2:contractPosition>
+                        <ns2:guid>1c1fd8ff-6bca-4a66-95e6-b6625f7d492b</ns2:guid>
+                        <ns2:name>Фитинги для труб стальные, кроме литых</ns2:name>
+                        <ns2:ordinalNumber>117</ns2:ordinalNumber>
+                        <ns2:okpd2>
+                            <code>24.20.40.000</code>
+                            <name>Фитинги для труб стальные, кроме литых</name>
+                        </ns2:okpd2>
+                        <ns2:impossibleToDetermineAttr>false</ns2:impossibleToDetermineAttr>
+                        <ns2:okei>
+                            <code>796</code>
+                            <name>Штука</name>
+                        </ns2:okei>
+                        <ns2:qty>28</ns2:qty>
+                    </ns2:contractPosition>
+                </ns2:contractPositions>
+                <ns2:contractConfirmingDocs>
+                    <ns2:contractDoc>
+                        <ns2:confirmingDocCode>1</ns2:confirmingDocCode>
+                        <ns2:confirmingDocCodeTitle>Протокол, составленный по результатам закупки</ns2:confirmingDocCodeTitle>
+                        <ns2:protocolInfoGuid>2b46a11a-8ae2-5041-1179-e2e5f69bf49d</ns2:protocolInfoGuid>
+                        <ns2:protocolName>Протокол по подведению итогов открытого запроса предложений в электронной форме 31705756165-01</ns2:protocolName>
+                        <ns2:docDate>2017-12-13</ns2:docDate>
+                        <ns2:docNum>31705756165-01</ns2:docNum>
+                    </ns2:contractDoc>
+                </ns2:contractConfirmingDocs>
+                <ns2:hasOkpdAndOkdpRows>false</ns2:hasOkpdAndOkdpRows>
+                <ns2:hasOkpd2Rows>true</ns2:hasOkpd2Rows>
+            </ns2:contractData>
+        </ns2:item>
+    </ns2:body>
+</ns2:contract>
