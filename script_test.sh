@@ -9,11 +9,6 @@ echo "$path"
 echo  ${#string}
 echo ${string:${#string}-3:${#string}}
 
-if [[ "a" = "a" ]]
-then
-	echo "sa marche enculer"
-fi
-
 x =$1
 
 
